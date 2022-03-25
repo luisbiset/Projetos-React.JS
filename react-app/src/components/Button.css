@@ -1,0 +1,19 @@
+.button {
+  font-size: 1.4em;
+  background-color: white;
+  border: none;
+  border-right: solid 1px gray;
+  border-bottom: solid 1px gray;
+}
+
+.button .double {
+  grid-column: span 2;
+}
+
+.button .triple {
+  grid-column: span 3;
+}
+
+.button:active {
+  color: rgba(139, 10, 27, 0.555);
+}
