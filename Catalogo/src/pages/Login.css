@@ -1,0 +1,65 @@
+.formulario {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 45vh;
+    min-height: 55vh;
+    background-color: azure;
+    border-radius: 5%;
+}
+
+.form {
+    display: block;
+    min-width: 35vh;
+    min-height: 45vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form h3 {
+    display: block;
+    text-align: center;
+    font-size: 2.0rem;
+}
+
+.form input {
+    padding: 0;
+    display: block;
+    width: 100%;
+    margin-top: 10%;
+    background-color: transparent;
+    border: none;
+
+}
+
+.form span {
+    display: block;
+    min-width: 80%;
+    max-width: 95%;
+    height: 2%;
+    border-bottom: solid 1px black;
+
+}
+
+.forgot-pw {
+    display: block;
+    margin: 25% auto;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+.btn{
+    display: block;
+    margin: 20% auto;
+    width: 50%;
+    text-align: center;
+    font-size: 1rem;
+    background:linear-gradient(to left, #43C6AC, #F8FFAE);
+    border: none;
+    border-radius: 3px;
+    padding: 5px 5px;
+}
