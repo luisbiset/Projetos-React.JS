@@ -1,0 +1,26 @@
+.monster {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(115, 187, 216);
+  height: 390px;
+  width: 300px;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.monster:hover {
+  transform: scale(1.05);
+  transition-duration: 250ms;
+}
+
+.title {
+  font-family: 'Bigelow Rules';
+}

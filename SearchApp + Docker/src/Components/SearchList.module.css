@@ -1,0 +1,19 @@
+.searchList {
+  height: 35px;
+  width: 160px;
+  text-align: center;
+  border: none;
+  margin: 25px;
+  background-color: rgba(128, 128, 128, 0.288);
+  border-radius: 5px;
+  background-color: rgba(243, 242, 240, 0.795);
+}
+
+.searchList:focus {
+  outline: 0;
+}
+
+.searchList::placeholder {
+  color: rgba(0, 0, 0, 0.459);
+  text-align: center;
+}
