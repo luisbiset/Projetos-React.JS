@@ -1,0 +1,78 @@
+.login {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+#logoId {
+  margin: 25px 60px;
+}
+
+.cadastro {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(245, 245, 245);
+  position: relative;
+  width: 400px;
+  bottom: 100px;
+  border-radius: 3px;
+  margin: 0 auto;
+}
+
+.topo {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(255, 237, 78, 0.938);
+  height: 230px;
+  width: 100%;
+}
+
+.bottom {
+  background-color: white;
+  height: 60px;
+}
+
+.contatosItem {
+  cursor: pointer;
+  font-weight: 100;
+  margin-top: 15px;
+  margin-right: 50px;
+  color: rgb(22, 21, 21);
+}
+.contatosItem:hover {
+  text-shadow: 0.2em 0.1em 0.2em #333;
+}
+
+.contatosItem:active {
+  color: rgb(14, 13, 13);
+  position: relative;
+  top: 3px;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+@media (max-width: 766px) {
+  .topo {
+    height: 60px;
+  }
+
+  .cadastro {
+    position: static;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .bottom {
+    display: none;
+  }
+
+  .contatosItem {
+    display: none;
+  }
+
+  #logoId {
+    margin: 0;
+  }
+}

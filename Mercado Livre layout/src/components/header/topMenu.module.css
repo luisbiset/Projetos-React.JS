@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  width: 75%;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 60px;
+  padding-bottom: 5px;
+}
+
+.menuPrincipal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(255, 237, 78, 0.938);
+}
+
+.navMenu1 a {
+  font-size: 1em;
+  text-decoration: none;
+  padding: 0 10px;
+  color: rgba(7, 7, 7, 0.534);
+}
+
+.navMenu1 a:hover {
+  transition-duration: 350ms;
+  color: rgba(7, 7, 7, 0.774);
+}
+
+.navMenu2 a {
+  font-size: 1em;
+  text-decoration: none;
+  color: rgba(7, 7, 7, 0.74);
+  padding: 0 10px;
+  font-weight: 400;
+}
+
+.navMenu2 a:hover {
+  transition-duration: 350ms;
+  color: rgba(7, 7, 7);
+}
+
+.searchProducts {
+  display: inline-block;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+  position: relative;
+  height: 39px;
+  width: 580px;
+  left: 35px;
+  border-radius: 2px;
+  border: none;
+}
+
+.searchProducts::placeholder {
+  font-weight: 100;
+  padding-left: 10px;
+  color: rgba(0, 0, 0, 0.301);
+}
+
+.searchProducts:focus {
+  outline: 0;
+}
+
+.sendCep {
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.877);
+  font-weight: 300;
+  text-decoration: none;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.spanSend {
+  font-size: 0.8em;
+  color: rgba(0, 0, 0, 0.541);
+}
+
+.sendCep:hover {
+  border: 1px solid rgba(100, 99, 99, 0.26);
+}

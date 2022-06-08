@@ -1,0 +1,10 @@
+.modal {
+  background-color: rgb(209, 43, 43);
+  display: none;
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  left: 200px;
+  top: 40px;
+  color: black;
+}
